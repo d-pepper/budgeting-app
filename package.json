@@ -2,12 +2,12 @@
   "name": "budgeting-app",
   "version": "1.0.0",
   "description": "Basic budgeting app API to explore node",
-  "main": "index.js",
   "scripts": {
+    "start": "nodemon ./start.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Dale Pepper",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "nodemon": "^1.15.1"
   },
